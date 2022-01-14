@@ -26,3 +26,11 @@ print(my_list)
 #mutation with slicing, change first 2 items on the ist
 my_list[0:3] = [1,2,3]
 print(my_list)
+
+#remove items from the list
+my_list[:4] = []
+print(my_list)
+
+#another way to remove items from the list, del is dangerous
+del my_list[0]
+print(my_list)
